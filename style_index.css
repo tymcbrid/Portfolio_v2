@@ -389,6 +389,10 @@ left: 70px;
     }
     #chatbubble{
         left: 80px;
-        font-size: 230px;
     } 
+    #bubbletext{
+        top: -200px;
+        font-size: 11px;
+        width: 180px;
+    }
     }
