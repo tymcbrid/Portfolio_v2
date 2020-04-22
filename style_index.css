@@ -383,8 +383,12 @@ left: 70px;
         left: 40px;
     }
     #headshot{
-        top: 0px;
-        left: 55px;
+        top: 120px;
+        left: -30px;
         height: 150px;
     }
+    #chatbubble{
+        left: 80px;
+        font-size: 230px;
+    } 
     }
