@@ -1,0 +1,84 @@
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      background-image:url(./Whistler.jpg);
+      background-size: cover;
+    }
+    .swiper-wrapper{
+        height: 80%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      height: calc((100% - 30px) / 2);
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+
+    /* Nav Bar */
+.navbar-brand{
+    color:white;
+}
+.nav-item{
+    color:white;
+}
+
+
+/* Content */
+h5{
+    position: relative;
+    bottom: 100px;
+    right: 150px;
+}
+#project1Tile{
+    background-image:url(./project1.png);
+    background-size: cover;
+}
+#project2Tile{
+    background-image:url(./project2.png);
+    background-size: cover;
+}
+#project3Tile{
+    background-image:url(./project3.png);
+    background-size: cover;
+}
+#project4Tile{
+    background-image:url(./project4.png);
+    background-size: cover;
+}
+#project5Tile{
+    background-image:url(./project5.png);
+    background-size: cover;
+}
+#project6Tile{
+    background-image:url(./project6.png);
+    background-size: cover;
+}
