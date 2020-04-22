@@ -116,9 +116,12 @@ html, body {
     #myName {
         font-size: 32px;
         left: 100px;
+        top: -50px;
     }
     #headshot{
-        left: 100px;
+        left: 120px;
+        top: -40px;
+        height: 150px;
     }
 }
 
@@ -129,7 +132,6 @@ html, body {
     left: 25px;
 }
 #headshot{
-    top: -10px;
     left: 35px;
     height: 130px;
 }
@@ -138,11 +140,11 @@ html, body {
 @media screen and (max-width: 375px) {
     #myName {
         font-size: 30px;
-        top: 20px;
+        top: -10px;
         left: 40px;
     }
     #headshot{
-        top: 50px;
+        top: 0px;
         left: 55px;
         height: 150px;
     }
