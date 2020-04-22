@@ -84,6 +84,14 @@ html, body {
 
 
 /* Media Screen */
+@media screen and (max-width: 1250px) {
+    #myName {
+        left: 380px;
+    }
+    #headshot{
+        left: 150px;
+    }
+    }
 @media screen and (max-width: 992px) {
 #myName {
     left: 280px;
@@ -92,6 +100,14 @@ html, body {
     left: 50px;
 }
 }
+@media screen and (max-width: 840px) {
+    #myName {
+        left: 200px;
+    }
+    #headshot{
+        left: 50px;
+    }
+    }
 
 @media screen and (max-width: 768px) {
 #myName {
@@ -102,6 +118,15 @@ html, body {
     left: 225px;
 }
 }
+@media screen and (max-width: 675px) {
+    #myName {
+        top: 10px;
+        left: 135px;
+    }
+    #headshot{
+        left: 185px;
+    }
+    }
 
 @media screen and (max-width: 576px) {
     #myName {
