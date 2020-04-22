@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style_contact.css">
+  <!-- Demo styles -->
+
+</head>
+<body>
+
+<!-- Nav Bar -->
+
+<!-- Swiper -->
+  <div class="swiper-container">
+    <div class="parallax-bg" style="background-image:url(./Whistler.jpg)" data-swiper-parallax="-23%"></div>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-transparent">
+      <a class="navbar-brand" href="./index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="./projects.html">Projects<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="./resume.html">Resume</a>
+          <a class="nav-item nav-link" href="./contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <!--  -->
+
+
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="title" data-swiper-parallax="-300" id="myName">Tyler McBride</div>
+        <div class="text" data-swiper-parallax="-100">
+          <img src="./Headshot.png" alt="Picture of me" id="headshot"></div>
+          <span class="dot" id="dot1"><i class="fas fa-phone" id="phoneIcon"></i></span>
+          <span class="dot" id="dot2"><i class="fas fa-envelope-open-text" id="mailIcon"></i></span>
+          <span class="dot" id="dot3"><i class="fab fa-linkedin-in" id="linkedIcon"></i></span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+  <script src="https://kit.fontawesome.com/0d94b97c7d.js" crossorigin="anonymous"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      speed: 600,
+      parallax: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
+
