@@ -234,10 +234,17 @@ html, body {
 
 #headshot{
     position: relative;
-    left: 490px;
+    left: 450px;
     top: 95px;
     height: 200px;
 
+}
+
+
+#resume{
+    height: 600px;
+    position: relative;
+    left: 400px;
 }
 
 /*  */
@@ -253,60 +260,22 @@ html, body {
     display: inline-block;
   }
 
-#dot1{
-    position: relative;
-    bottom: 210px;
-    left: 650px;
-    background-color: white;
-}
-#dot2{
-    position: relative;
-    bottom: 120px;
-    left: 630px;   
-    background-color: white; 
-}
+
 #dot3{
     position: relative;
-    bottom: -10px;
-    left: 525px;
+    bottom: 600px;
+    left: 1000px;
     background-color: white;
 
 }
-#dot4{
-    position: relative;
-    bottom: -100px;
-    left: 335px;
-    background-color: white;
-
-}
-#phoneIcon{
-    color: #359124;
-    position: relative;
-    left: 28px;
-    top: 28px;
-    font-size: 50px;   
-}
-#mailIcon{
-    position: relative;
-    color: #e64239;
-    left: 28px;
-    top: 22px;
-    font-size: 50px;   
-}
-#linkedIcon{
-    position: relative;
-    color: #0072b1;
-    left: 32px;
-    top: 26px;
-    font-size: 50px;   
-}
-#githubIcon{
+#downloadicon{
     position: relative;
     color: black;
-    left: 28px;
+    left: 34px;
     top: 26px;
     font-size: 50px;   
 }
+
 /*  */
 
 
@@ -405,3 +374,5 @@ html, body {
         height: 150px;
     }
     }
+
+

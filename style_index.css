@@ -11,6 +11,16 @@ html, body {
     margin: 0;
     padding: 0;
   }
+
+  .parallax {
+    background-position: 10% 100px !important;height: 10px;background-size: 100%;
+  }
+/*   
+  .parallax-container-2 {
+    height: 400px;
+  } */
+
+
   .swiper-container {
     width: 100%;
     height: 100%;
