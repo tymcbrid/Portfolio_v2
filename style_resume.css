@@ -285,46 +285,74 @@ html, body {
 
 /* Media Screen */
 @media screen and (max-width: 1250px) {
-    #myName {
-        left: 380px;
+    #resume{
+        top: 20px;
+        left: 375px;
     }
-    #headshot{
-        left: 150px;
+    #dot5{
+        left: 900px;
     }
     }
+    @media screen and (max-width: 1100px) {
+        #resume{
+            top: 20px;
+            left: 275px;
+        }
+        #dot5{
+            left: 800px;
+        }
+        }
 @media screen and (max-width: 992px) {
-#myName {
-    left: 280px;
-}
-#headshot{
-    left: 50px;
-}
-}
-@media screen and (max-width: 840px) {
-    #myName {
-        left: 200px;
-    }
-    #headshot{
-        left: 50px;
-    }
-    }
-
-@media screen and (max-width: 768px) {
-#myName {
-    top: 10px;
-    left: 165px;
-}
-#headshot{
+#resume{
+    top: 20px;
     left: 225px;
+}
+#dot5{
+    left: 750px;
+}
+}
+@media screen and (max-width: 930px) {
+    #resume{
+        top: 20px;
+        left: 175px;
+    }
+    #dot5{
+        left: 650px;
+    }
+    .dot{
+        height: 80px;
+        width: 80px;
+    }
+    #downloadicon{
+        font-size: 40px;
+        left: 28px;
+        top: 22px;
+    }
+    }
+@media screen and (max-width: 840px) {
+
+    #resume{
+        height: 500px;
+    }
+    #dot5{
+        left: 600px;
+        bottom: 400px;
+    }
+}
+@media screen and (max-width: 768px) {
+
+#resume{
+    top: 20px;
+    left: 75px;
+}
+#dot5{
+    left: 500px;
 }
 }
 @media screen and (max-width: 675px) {
-    #myName {
-        top: 10px;
-        left: 135px;
-    }
-    #headshot{
-        left: 185px;
+
+    #dot5{
+        left: -20px;
     }
     }
 
@@ -338,41 +366,37 @@ html, body {
 }
 
 @media screen and (max-width: 520px) {
-    #myName {
-        font-size: 32px;
-        left: 100px;
-        top: -50px;
+
+    #dot5{
+        left: 180px;
+        bottom: 570px
     }
-    #headshot{
-        left: 120px;
-        top: -40px;
-        height: 150px;
+    #resume{
+        left: 0px;
     }
 }
 
+@media screen and (max-width: 490px) {
+    #resume{
+        height: 420px;
+    }
+    #dot5{
+        left: 120px;
+        bottom: 500px
+    }
+}
 
 @media screen and (max-width: 414px) {
-#myName {
-    font-size: 26px;
-    left: 25px;
-}
-#headshot{
-    left: 35px;
-    height: 130px;
-}
+    #resume{
+        height: 380px;
+    }
+    #dot5{
+        left: 100px;
+        bottom: 450px
+    }
 }
 
-@media screen and (max-width: 375px) {
-    #myName {
-        font-size: 30px;
-        top: -10px;
-        left: 40px;
-    }
-    #headshot{
-        top: 0px;
-        left: 55px;
-        height: 150px;
-    }
-    }
+/* @media screen and (max-width: 375px) {
 
-
+    }
+ */
