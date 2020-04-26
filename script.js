@@ -11,16 +11,22 @@ var resumebutton = document.getElementById("dot5");
 //     var instances = M.Parallax.init(elems);
 // });
 
+if(resumebutton !== null){
+  resumebutton.addEventListener("click", function(){
+    window.open('https://drive.google.com/open?id=1sjuPwe3ngu4jsmQUSiGnvGF0yzlGbj4Z', '_blank')
+  })
+}
 
-resumebutton.addEventListener("click", function(){
-  window.open('https://drive.google.com/open?id=1sjuPwe3ngu4jsmQUSiGnvGF0yzlGbj4Z', '_blank')
-})
-linkedinbutton.addEventListener("click", function(){
-  window.open('https://www.linkedin.com/in/mcbridetyler/', '_blank')
-})
-githubbutton.addEventListener("click", function(){
-  window.open('https://github.com/tymcbrid', '_blank')
-})
+if(linkedinbutton !== null){
+  linkedinbutton.addEventListener("click", function(){
+    window.open('https://www.linkedin.com/in/mcbridetyler/', '_blank')
+  })
+}
+if(githubbutton !== null){
+  githubbutton.addEventListener("click", function(){
+    window.open('https://github.com/tymcbrid', '_blank')
+  }) 
+}
 
 
 
