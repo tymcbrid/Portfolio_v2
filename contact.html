@@ -8,7 +8,6 @@
 
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./style_contact.css">
   <!-- Demo styles -->
@@ -48,9 +47,19 @@
           <span class="dot" id="dot2"><i class="fas fa-envelope-open-text" id="mailIcon"></i></span>
           <span class="dot" id="dot3"><i class="fab fa-linkedin-in" id="linkedIcon"></i></span>
           <span class="dot" id="dot4"><i class="fab fa-github" id="githubIcon"></i></span>
+         
       </div>
     </div>
-
+    <div class="bg-modal invisible" id='bg-modal1'>
+        <div class="modal-content">
+          <h4 id="phoneinfo">Mobile: <br/>574-286-9816</h2>
+        </div>
+      </div>
+      <div class="bg-modal invisible" id='bg-modal2'>
+          <div class="modal-content">
+            <h4 id="phoneinfo">Email: <br/>tymcbrid@gmail.com</h2>
+          </div>
+        </div>
   </div>
 
   <!-- Swiper JS -->
@@ -76,6 +85,7 @@
       },
     });
   </script>
+  <script src="./script.js"></script>
 </body>
 </html>
 
