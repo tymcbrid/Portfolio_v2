@@ -279,6 +279,13 @@ html, body {
     background-color: white;
 
 }
+#dot5{
+    position: relative;
+    bottom: -10px;
+    left: 525px;
+    background-color: white;
+
+}
 #phoneIcon{
     color: #359124;
     position: relative;

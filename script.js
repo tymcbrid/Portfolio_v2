@@ -2,6 +2,7 @@ var linkedinbutton = document.getElementById("dot3");
 var githubbutton = document.getElementById("dot4");
 var phonebutton = document.getElementById("dot1");
 var emailbutton = document.getElementById("dot2");
+var resumebutton = document.getElementById("dot5");
 
 
 
@@ -11,13 +12,17 @@ var emailbutton = document.getElementById("dot2");
 // });
 
 
-
+resumebutton.addEventListener("click", function(){
+  window.open('https://drive.google.com/open?id=1sjuPwe3ngu4jsmQUSiGnvGF0yzlGbj4Z', '_blank')
+})
 linkedinbutton.addEventListener("click", function(){
   window.open('https://www.linkedin.com/in/mcbridetyler/', '_blank')
 })
 githubbutton.addEventListener("click", function(){
   window.open('https://github.com/tymcbrid', '_blank')
 })
+
+
 
 
 $('#dot1').on('click', () => {
